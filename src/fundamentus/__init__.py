@@ -14,6 +14,7 @@ __all__ = [
         'get_resultado_raw',
         'get_papel',
         'list_papel_setor',
+        'get_proventos'
         ]
 
 __version__ = '0.2.0'
@@ -30,6 +31,8 @@ from fundamentus.detalhes   import list_papel_all
 from fundamentus.setor      import get_setor_id
 from fundamentus.setor      import list_papel_setor
 from fundamentus.setor      import print_setores
+
+from fundamentus.proventos  import get_proventos
 
 from fundamentus.utils      import print_csv
 from fundamentus.utils      import print_table
